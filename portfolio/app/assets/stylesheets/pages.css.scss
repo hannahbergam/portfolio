@@ -1,5 +1,4 @@
 header {
-  margin-top: 20px;
   display: flex;
   background-color: darkgrey;
 }
@@ -14,11 +13,13 @@ nav {
   background-color: lightgrey;
 
   ul {
+    padding-left: 0px;
     display: flex;
     width: 100%;
     justify-content: space-between;
 
     li {
+      margin-top: 0px;
       flex-grow: 1;
       text-align: center;
     }
@@ -29,6 +30,7 @@ body {
   background-color: lightgray;
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 h1 {
@@ -40,22 +42,28 @@ h1 {
   width: 100%
 }
 
-body {
-  margin-left: 30px;
+h2 {
+  font-size: 28px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  margin: 15px;
+  margin: 15px 0px;
   align-self: center;
 }
 
 li {
   flex-grow: 1;
+  margin-top: 10px;
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
   display: inline-grid;
+
+  a {
+    margin-left: 0px;
+    color: black;
+  }
 }
 
 footer {
@@ -67,5 +75,9 @@ footer {
     flex-grow: 1;
     text-align: center;
   }
+}
+
+div#portfolioTiles {
+  display: flex;
 }
 
